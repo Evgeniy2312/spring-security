@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<a href="/calc/count">Calculator</a>
+<a href="/user/reg">Registration</a>
+<a href="/user/auth">Authorization</a>
+<form th:action="@{/logout}" method="post">
+    <button>Logout</button>
+</form>
+</body>
+</html>
